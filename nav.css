@@ -1,0 +1,85 @@
+.nav{
+    height: 90px;
+    background-color: cadetblue;
+    padding-top: 6px;
+    background-attachment: fixed;
+ 
+ }
+ .nav .logo{
+    height: 60px;
+    
+ }
+ .nav .cont-nav{
+    padding: 10px;
+ }
+ .user{
+    cursor: pointer;
+ }
+ .user-detat{
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    float: right;
+    height: 95px;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-top: 80px;
+ }
+ .logout{
+    border: 0 solid #270101;
+    background-color: #f39d9d;
+    padding: 4px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #fff;
+ }
+
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;
+margin-top: 100px;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .user-detat{
+    margin-top: 30px;
+  }
+}
+
+
+.card {
+
+  padding: 16px;
+  text-align: center;
+  height: 300px;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
+.card:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+footer{
+  margin-top: 50px;
+  height: 100px;
+  background-color: gray;
+}
+ i{
+  height: 40px;
+  position: relative;
+  left: 500px;
+}
